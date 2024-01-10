@@ -1,0 +1,49 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "name": "Hambúrguer",
+      "cpf": "46698029840",
+      "income": "12000",
+      "email": "guiduarte998@gmail.com",
+      "dateOfBirth": "22011998",
+      "dateRegister": "01/09/2024 9:22:50"
+    },
+    {
+      "id": 2,
+      "name": "Guilherme Duarte",
+      "cpf": "11111111190",
+      "income": "200000",
+      "email": "guilherme.santanna@gmail.com",
+      "dateOfBirth": "12345654",
+      "dateRegister": "01/09/2024 9:22:50"
+    },
+    {
+      "id": 3,
+      "name": "Alan",
+      "cpf": "12141411290",
+      "income": "20000",
+      "email": "guilherme.santanna@outlook.com",
+      "dateOfBirth": "12312322",
+      "dateRegister": "01/09/2024 9:22:50"
+    },
+    {
+      "id": "052b",
+      "name": "Vitor",
+      "cpf": "47021758820",
+      "email": "adriana.santanna@gmail.com",
+      "income": "23000",
+      "dateOfBirth": "12340978",
+      "dateRegister": "01/09/2024 9:56:23"
+    },
+    {
+      "id": "c57a",
+      "name": "Adriana",
+      "cpf": "47021758820",
+      "email": "osoriodsantanna@yahoo.com.br",
+      "income": "25000",
+      "dateOfBirth": "2024-01-20",
+      "dateRegister": "01/10/2024 12:30:09"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+<div class="container">
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>CPF</th>
+                <th>Email</th>
+                <th>Income</th>
+                <th>Date of Birth</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let x of clients">
+                <td>{{x.name}}</td>
+                <td>{{x.cpf}}</td>
+                <td>{{x.email}}</td>
+                <td>{{x.income}}</td>
+                <td>{{x.dateOfBirth}}</td>
+            </tr>
+        </tbody>
+
+    </table>
+</div>

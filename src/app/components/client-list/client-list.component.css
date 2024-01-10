@@ -1,0 +1,47 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #004d99;
+    color: #ffffff;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.status-indicator {
+    height: 10px;
+    width: 10px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+tr:hover {
+    background-color: #a5a5a5;
+}
+
+.total-value {
+    text-align: right;
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}

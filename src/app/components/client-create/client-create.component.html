@@ -1,0 +1,30 @@
+<div>
+    <div class="submit-form">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" required [(ngModel)]="client.name" name="name" />
+        </div>
+
+        <div class="form-group">
+            <label for="cpf">CPF</label>
+            <input type="text" class="form-control" id="cpf" required [(ngModel)]="client.cpf" name="cpf" />
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" required [(ngModel)]="client.email" name="email" />
+        </div>
+
+        <div class="form-group">
+            <label for="income">Income</label>
+            <input type="text" class="form-control" id="income" required [(ngModel)]="client.income" name="income" />
+        </div>
+
+        <div class="form-group">
+            <label for="dateOfBirth">Date of Birth</label>
+            <input type="date" class="form-control" id="dateOfBirth" required [(ngModel)]="client.dateOfBirth"
+                name="dateOfBirth" />
+        </div>
+        <button class="btn btn-success" (click)="newClient()">Add</button>
+    </div>
+</div>
