@@ -10,29 +10,24 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class ClientDetailsComponent implements OnInit {
 
-  client: any;
-  id: any;
+  id!: string;
+  client!: Client;
+
   constructor(private clientService: ClientService,
     private activatedRoute: ActivatedRoute,
     private router: Router) { }
 
   ngOnInit(): void {
-    this.client = new Client();
     this.id = this.activatedRoute.snapshot.params['id'];
-    this.clientService.getById(this.id).subscribe(res => {
-      this.client = res;
-    })
-    console.log(this.client);
+    this.clientService.getById(this.id).subscribe((data: Client) => {
+      this.client = data;
+    });
   }
 
   onSubmit() {
     this.clientService.update(this.id, this.client).subscribe(data => {
     }
       , error => console.log(error));
-  }
-
-  goToEmployeeList() {
-    this.router.navigate(['/employees']);
   }
 }
 

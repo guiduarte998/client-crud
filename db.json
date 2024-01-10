@@ -1,7 +1,7 @@
 {
   "clients": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Hambúrguer",
       "cpf": "46698029840",
       "income": "12000",
@@ -10,7 +10,7 @@
       "dateRegister": "01/09/2024 9:22:50"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Guilherme Duarte",
       "cpf": "11111111190",
       "income": "200000",
@@ -19,7 +19,7 @@
       "dateRegister": "01/09/2024 9:22:50"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Alan",
       "cpf": "12141411290",
       "income": "20000",
