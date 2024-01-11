@@ -25,6 +25,6 @@ export class ClientService {
   }
 
   update(id: any, data: any): Observable<any> {
-    return this.http.put(this.apiURL + id, JSON.stringify(data))
+    return this.http.put(`${this.apiURL}/${id}`, JSON.stringify(data))
   }
 }
